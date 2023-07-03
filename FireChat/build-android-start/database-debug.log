@@ -1,0 +1,15 @@
+15:27:33.175 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+15:27:33.328 [main] INFO com.firebase.server.forge.App$ - Listening at 127.0.0.1:9000
+15:27:40.486 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO com.firebase.core.namespace.NamespaceActor - demo-friendlychat-android-default-rtdb successfully activated FBKV (SurveyIdle(0)) wait: 131ms, init: 0ms
+15:27:40.602 [NamespaceSystem-blocking-namespace-operation-dispatcher-7] INFO com.firebase.core.namespace.StateManager - Namespace demo-friendlychat-android-default-rtdb status Active to Active
+16:59:52.515 [FirebaseWorkerPool-1-1] WARN com.firebase.core.persistence.backend.dummy.EmulatorMetadataPersistence - Multiple projectIds are not recommended in single project mode. Requested 
+namespace demo-friendlychat-android, but the emulator is configured for demo-friendlychat-android-default-rtdb. To 
+opt-out of single project mode add/set the singleProjectMode: false property in 
+the firebase.json emulators config. 
+16:59:52.678 [NamespaceSystem-akka.actor.default-dispatcher-16] INFO com.firebase.core.namespace.NamespaceActor - demo-friendlychat-android successfully activated FBKV (SurveyIdle(0)) wait: 56ms, init: 0ms
+17:06:24.923 [FirebaseWorkerPool-1-1] WARN com.firebase.core.persistence.backend.dummy.EmulatorMetadataPersistence - Multiple projectIds are not recommended in single project mode. Requested 
+namespace build-android-start-adb47-default-rtdb, but the emulator is configured for demo-friendlychat-android,demo-friendlychat-android-default-rtdb. To 
+opt-out of single project mode add/set the singleProjectMode: false property in 
+the firebase.json emulators config. 
+17:06:25.036 [NamespaceSystem-akka.actor.default-dispatcher-23] INFO com.firebase.core.namespace.NamespaceActor - build-android-start-adb47-default-rtdb successfully activated FBKV (SurveyIdle(0)) wait: 43ms, init: 0ms
+17:17:04.727 [Thread-0] INFO com.firebase.server.forge.App$ - Attempting graceful shutdown.
